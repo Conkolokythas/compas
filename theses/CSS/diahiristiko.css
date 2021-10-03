@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+}
+.header, .footer {
+    padding: 1em;
+    color: white;
+    background-color: #d96e26;
+    clear: left;
+    text-align: center;
+    display: block;
+}
+
+.form{
+  padding: 100px 20px;
+  margin: 8px 0;
+  font-family: sans-serif;
+  display: block;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
